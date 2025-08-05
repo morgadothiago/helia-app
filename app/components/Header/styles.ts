@@ -1,3 +1,4 @@
+import theme from "@/app/global/globalStyles"
 import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
@@ -10,6 +11,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     gap: 10,
+  },
+  logoContainer: {
+    backgroundColor: theme.colors.activeIconColor,
+    borderRadius: 5,
+    padding: 3,
   },
   headerLeftText: {
     color: "#fff",
