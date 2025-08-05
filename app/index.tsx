@@ -75,6 +75,10 @@ export const styles = StyleSheet.create({
     flex: 1,
     height: 40,
     marginLeft: 8,
-    color: theme.colors.inativeIconColor,
+    color: theme.colors.activeIconColor,
+    fontWeight: "bold",
+    fontSize: 16,
+
+    paddingBottom: 4,
   },
 })
